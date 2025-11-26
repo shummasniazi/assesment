@@ -2,10 +2,23 @@
 
 ## 📹 Demo Video
 
-<video width="100%" controls autoplay muted>
-  <source src="demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+### 🎬 Live App Demo
+<p align="center">
+  <a href="https://drive.google.com/file/d/1_fKwrHiitCr_MfG8-Xv-nRHWgGbN6urK/view?usp=sharing" target="_blank">
+    <img src="https://img.shields.io/badge/🎬_Click_to_Watch_Demo-FF0000?style=for-the-badge&logo=google-drive&logoColor=white" alt="Watch Demo Video" />
+  </a>
+</p>
+
+**📱 Features Showcased in Demo:**
+- 🎲 **Random Image Loading** - Smooth API integration with Unsplash
+- 🎨 **Theme Switching** - Beautiful light/dark mode transitions
+- ⚡ **Advanced Loading States** - Shimmer effects and progress tracking
+- 📱 **Responsive Design** - Adaptive UI across all screen sizes
+- 🌟 **Material Design 3** - Modern UI with professional animations
+- ♿ **Accessibility** - Screen reader support and touch targets
+- 🔄 **State Management** - BLoC pattern for predictable updates
+
+> **🎯 Click the red "Watch Demo" button above to see the app in action!**
 
 ---
 
