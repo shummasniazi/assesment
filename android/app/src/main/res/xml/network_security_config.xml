@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Allow cleartext traffic and disable certificate pinning -->
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+            <certificates src="user" />
+        </trust-anchors>
+    </base-config>
+
+    <!-- Specific configuration for HTTPS domains -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">images.unsplash.com</domain>
+        <domain includeSubdomains="true">unsplash.com</domain>
+        <domain includeSubdomains="true">november7-730026606190.europe-west1.run.app</domain>
+        <trust-anchors>
+            <certificates src="system" />
+            <certificates src="user" />
+        </trust-anchors>
+    </domain-config>
+
+    <!-- Debug configuration to bypass SSL issues -->
+    <debug-overrides>
+        <trust-anchors>
+            <certificates src="system" />
+            <certificates src="user" />
+        </trust-anchors>
+    </debug-overrides>
+</network-security-config>
