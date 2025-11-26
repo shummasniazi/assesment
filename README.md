@@ -515,19 +515,6 @@ Shimmer.fromColors(
 - Minimal network permissions
 - Transparent data usage
 
-## 🤝 Contributing
-
-### 🛠️ Development Setup
-
-1. **Fork** the repository
-2. **Clone** your fork: `git clone https://github.com/your-username/assesment.git`
-3. **Create** feature branch: `git checkout -b feature/amazing-feature`
-4. **Install** dependencies: `flutter pub get`
-5. **Run tests**: `flutter test`
-6. **Make changes** and ensure tests pass
-7. **Commit**: `git commit -m 'Add amazing feature'`
-8. **Push**: `git push origin feature/amazing-feature`
-9. **Create Pull Request**
 
 ### 📝 Code Standards
 
