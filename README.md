@@ -1,5 +1,14 @@
 # 🎨 Random Image App
 
+## 📹 Demo Video
+
+<video width="100%" controls autoplay muted>
+  <source src="demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+---
+
 A modern, feature-rich Flutter application that displays random images from Unsplash with advanced loading animations, theme switching, and optimized performance. Built with clean architecture principles and comprehensive testing.
 
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
